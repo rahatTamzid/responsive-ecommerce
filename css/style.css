@@ -1,0 +1,139 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*** Header ***/
+
+header, #header-banner{
+    background: #FFFBF0;
+}
+
+
+.navbar-light .custom-navbar .nav-link {
+    color: #3C3C3C;
+}
+.mobile-btn:focus {
+    box-shadow: 0 0 0 0.05rem;
+}
+
+.logo {
+    max-width: 290px;
+}
+
+/*** Header intro***/
+.headline {
+    color: #363958;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5rem;
+}
+
+.orange-highlight {
+    color: #FABE4C;
+}
+
+.banner-image {
+    max-width: 450px;
+    width: 100%;
+}
+
+.btn-buy {
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 170px;
+    height: 60px;
+    line-height: 44px;
+}
+
+.btn-buy:focus {
+    box-shadow: none;
+}
+
+.fa-cart {
+    margin-right: 10px;
+}
+
+/*** Collection ***/
+.collection-title {
+    color: #363958;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+}
+
+.product-card {
+    padding: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    display:block;
+}
+
+.product-image {
+    background: #F1F1F1;
+    border-radius: 20px;
+}
+
+.product-card img {   
+    max-height: 270px;
+    width: auto !important;   
+}
+
+.product-title, .feature-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #363958;
+}
+
+.product-card-footer {
+    background: #fff;
+    border: 0;
+}
+
+.price {
+    font-size: 36px;
+    color: #FABE4C;
+}
+
+/*** Feature ***/
+.feature-card {
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border: 0;
+}
+
+.feature-card-image {
+    max-width: 78px;
+}
+
+/*** Newsletter ***/
+.btn-newsletter {
+    height: 50px;
+    line-height: 34px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.newsletter-title {
+    color: #363958;
+}
+
+/*** Responsive ***/
+@media screen and (max-width:576px) {
+    .headline {
+        font-size: 60px;
+    }
+
+    .logo {
+        max-width: 240px;
+    }
+}
+
+@media screen and (min-width:992px){
+    .feature-card {
+        max-width: 490px;
+    }
+
+    .navbar{
+        background-image: url(../images/nav-bar-bg.png);
+        background-position: 40% 0%;
+        background-repeat: no-repeat;
+    }
+}
